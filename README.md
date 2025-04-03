@@ -28,3 +28,8 @@ day of week   1 2 3 4 5
 ## Set up instructions
 - `npm install`
 - `npm run setup`
+
+## Todo:
+- Test for failing on missing params
+- Add in mon-sun options?
+- Handle edge cases i.e. different month sizes, leap years, etc.
