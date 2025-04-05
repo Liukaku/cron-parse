@@ -1,6 +1,6 @@
 
 alias_name="cronparse"
-alias_command="node ~/dev/node/deliver/dist/index.js"
+alias_command="node $(dirname $(realpath $0))/dist/index.js"
 
 alias_line="alias $alias_name=\"$alias_command\""
 
